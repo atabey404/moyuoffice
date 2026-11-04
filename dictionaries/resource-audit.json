@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-03",
+  "sources": [],
+  "books": [
+    {
+      "id": "biao0",
+      "name": "标准日本语 · 初级上册",
+      "count": 1077
+    },
+    {
+      "id": "biao1",
+      "name": "标准日本语 · 初级下册",
+      "count": 1072
+    },
+    {
+      "id": "biao2",
+      "name": "标准日本语 · 中级上册",
+      "count": 1744
+    },
+    {
+      "id": "biao3",
+      "name": "标准日本语 · 中级下册",
+      "count": 1907
+    },
+    {
+      "id": "biao4",
+      "name": "标准日本语 · 高级上册",
+      "count": 1806
+    },
+    {
+      "id": "biao5",
+      "name": "标准日本语 · 高级下册",
+      "count": 1506
+    },
+    {
+      "id": "topik1",
+      "name": "TOPIK 1 级",
+      "count": 858,
+      "sourceCount": 858,
+      "unmatched": 0
+    },
+    {
+      "id": "topik2",
+      "name": "TOPIK 2 级",
+      "count": 1072,
+      "sourceCount": 1073,
+      "unmatched": 0
+    },
+    {
+      "id": "topik3",
+      "name": "TOPIK 3 级",
+      "count": 1581,
+      "sourceCount": 1581,
+      "unmatched": 0
+    },
+    {
+      "id": "topik4",
+      "name": "TOPIK 4 级",
+      "count": 2078,
+      "sourceCount": 2078,
+      "unmatched": 0
+    },
+    {
+      "id": "topik5",
+      "name": "TOPIK 5 级",
+      "count": 2131,
+      "sourceCount": 2131,
+      "unmatched": 0
+    },
+    {
+      "id": "topik6",
+      "name": "TOPIK 6 级",
+      "count": 2468,
+      "sourceCount": 2468,
+      "unmatched": 0
+    },
+    {
+      "id": "oxford-core",
+      "name": "牛津核心词表 · 社区释义",
+      "count": 5458
+    },
+    {
+      "id": "ielts-expanded",
+      "name": "雅思扩展词表",
+      "count": 9389
+    }
+  ],
+  "unmatched": []
+}
