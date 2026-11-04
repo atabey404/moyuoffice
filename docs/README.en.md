@@ -6,7 +6,7 @@
 
 [Try it online](https://atabey404.github.io/moyuoffice/) · [Report an issue](https://github.com/atabey404/moyuoffice/issues)
 
-MoyuOffice turns short breaks into vocabulary practice. Study English, Japanese, and Korean words in a WeChat-style light interface, reveal Chinese meanings with Enter, and practice spelling words you have already studied.
+MoyuOffice turns short breaks into vocabulary practice. Study English, Japanese, and Korean words in a WeChat-style light or dark interface, reveal Chinese meanings with Enter, and practice spelling words you have already studied.
 
 ## Features
 
@@ -20,14 +20,15 @@ The app interface is currently mainly in Chinese. These translated introductions
 
 ## Start learning
 
-Open the website, select a dictionary in **我的词典**, and enter the chat interface. Choose a mode in the input area. Press Esc to return to the dashboard and stop the session timer. The timer measures time with the skin open, not verified focused study time.
+Open the website, select a dictionary in **我的词典**, and enter the chat interface. Open the top-right **•••** menu to choose the learning mode or appearance. Your appearance choice is saved in the current browser. Press Esc to return to the dashboard and stop the session timer. The timer measures time with the skin open, not verified focused study time.
 
 Records are stored in your current browser. There are no accounts, cloud sync, or study-record export/import. Changing browser, device, or website address does not transfer records automatically. Clearing site data removes local records.
 
-This is an independent simulation and does not connect to real messaging accounts. Dark mode, additional skins, payments, AI chat/grading, and audio playback are not available in the current version.
+This is an independent simulation and does not connect to real messaging accounts. Additional skins, payments, AI chat/grading, and audio playback are not available in the current version.
 
 ## Run and contribute
 
 This is a static HTML/CSS/JavaScript site. Clone the repository and open `index.html`, or serve the directory with a static server. No frontend dependency installation is required. GitHub Pages uses `main` and `/ (root)`.
 
 See the [Chinese documentation](../README.md) for CSV format and full usage, the [contribution guide](../CONTRIBUTING.md), and [data sources and licenses](../dictionaries/SOURCES.md). Third-party datasets retain their respective licenses; the project's own code does not yet have a unified open-source license.
+
