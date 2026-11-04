@@ -2,7 +2,7 @@
 
 # MoyuOffice · 摸鱼事务所
 
-**在熟悉的聊天界面里，把工作间隙变成一点语言积累。**
+**在熟悉的工作界面里，把工作间隙变成一点语言积累。**
 
 [在线体验](https://atabey404.github.io/moyuoffice/) · [使用方法](#使用方法) · [词库](#内置词库) · [反馈问题](https://github.com/atabey404/moyuoffice/issues) · [参与贡献](CONTRIBUTING.md)
 
@@ -12,11 +12,11 @@
 
 ## 项目简介
 
-MoyuOffice 是一个聊天式背词网站。打开微信风格的桌面界面，按回车接收单词、查看释义，或默写已经学过的内容。它面向想利用零碎时间学习的人，支持英语、日语和韩语词库。
+MoyuOffice 是一个摸鱼背词网站。打开不同工作软件的桌面界面，按回车接收单词、查看释义，或默写已经学过的内容。它面向想利用零碎时间学习的人，支持英语、日语和韩语词库。
 
 | 语言 | 简介 |
 | --- | --- |
-| 简体中文 | 用熟悉的聊天界面学习英日韩词汇，支持回车翻译、已学词默写与学习记录续接。 |
+| 简体中文 | 用熟悉的工作软件界面学习英日韩词汇，支持回车翻译、已学词默写与学习记录续接。 |
 | English | Learn English, Japanese, and Korean vocabulary in a familiar chat interface, with Enter-to-reveal meanings, dictation of studied words, and saved progress. |
 | 日本語 | チャット画面で英語・日本語・韓国語の単語を学習。Enter キーで意味を確認し、学習済みの単語の書き取りや続きからの学習ができます。 |
 | 한국어 | 익숙한 채팅 화면에서 영어·일본어·한국어 어휘를 학습하세요. Enter로 뜻 확인, 학습한 단어 받아쓰기, 학습 기록 이어하기를 지원합니다. |
