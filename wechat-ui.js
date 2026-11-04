@@ -46,7 +46,7 @@ openChatSettings=function(){
  $('#wx-collect').onclick=()=>saveWord();$('#wx-contact-settings').onclick=()=>{$('#modal').close();endChat();navigate('settings')};applyWechatTheme();$('#modal').showModal();
 };
 const wxBaseRender=render;
-render=function(){wxBaseRender();if(page==='settings'){const field=document.createElement('div');field.className='field';field.innerHTML='<label>微信皮肤外观</label>'+wxThemeChoices();$('#settings-form').insertBefore(field,$('#settings-form .primary'));}applyWechatTheme()};
+render=function(){wxBaseRender();applyWechatTheme()};
 const wxBaseStartChat=startChat;
 startChat=function(){wxBaseStartChat();refreshSelfAvatars();applyWechatTheme()};
 const wxBaseMessage=message;
