@@ -4,7 +4,7 @@
 
 **在熟悉的工作界面里，把工作间隙变成一点语言积累。**
 
-[在线体验](https://atabey404.github.io/moyuoffice/) · [使用方法](#使用方法) · [词库](#内置词库) · [反馈问题](https://github.com/atabey404/moyuoffice/issues) · [参与贡献](CONTRIBUTING.md)
+[在线体验](https://atabey404.github.io/moyuoffice/) · [界面预览](#界面预览) · [使用方法](#使用方法) · [词库](#内置词库) · [反馈问题](https://github.com/atabey404/moyuoffice/issues) · [参与贡献](CONTRIBUTING.md)
 
 **简体中文** · [English](docs/README.en.md) · [日本語](docs/README.ja.md) · [한국어](docs/README.ko.md)
 
@@ -22,6 +22,16 @@ MoyuOffice 是一个摸鱼背词网站。打开不同工作软件的桌面界面
 | 한국어 | 익숙한 채팅 화면에서 영어·일본어·한국어 어휘를 학습하세요. Enter로 뜻 확인, 학습한 단어 받아쓰기, 학습 기록 이어하기를 지원합니다. |
 
 当前为早期网页版本，操作界面以中文为主；四语文档介绍不代表界面已完成四语本地化（后续会持续更新“摸鱼皮肤”）。无需注册，直接在浏览器中使用。
+
+## 界面预览
+
+### 工作台
+
+![MoyuOffice 工作台：今日学习、摸鱼时长与皮肤入口](docs/images/dashboard.png)
+
+### 微信深色皮肤
+
+![MoyuOffice 微信深色皮肤：聊天式单词学习](docs/images/wechat-dark.png)
 
 ## 功能
 
