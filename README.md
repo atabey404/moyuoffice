@@ -1,6 +1,7 @@
 <div align="center">
 
-# MoyuOffice · 摸鱼事务所
+# <img width="80" height="81" alt="image" src="https://github.com/user-attachments/assets/d4bf759d-7921-4806-b214-42d566d053e3" />
+MoyuOffice · 摸鱼事务所
 
 **在熟悉的工作界面里，把工作间隙变成一点语言积累。**
 
