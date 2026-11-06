@@ -32,3 +32,6 @@ This is a static HTML/CSS/JavaScript site. Clone the repository and open `index.
 
 See the [Chinese documentation](../README.md) for CSV format and full usage, the [contribution guide](../CONTRIBUTING.md), and [data sources and licenses](../dictionaries/SOURCES.md). Third-party datasets retain their respective licenses; the project's own code does not yet have a unified open-source license.
 
+
+
+DingTalk light skin is also available, sharing vocabulary progress and study modes with the WeChat skin.
