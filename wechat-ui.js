@@ -24,7 +24,11 @@ const wxIcons={
 };
 const wxSvg=name=>icon(wxIcons[name]);
 function selfAvatarMarkup(){return data.selfAvatar?'<img alt="" src="'+esc(data.selfAvatar)+'">':'<svg viewBox="0 0 72 72" aria-hidden="true"><rect width="72" height="72" fill="#b9d7df"/><path d="M0 43 25 16 50 43" fill="#778f89"/><path d="m13 29 12-13 12 13-12-5Z" fill="#e3ece9"/><path d="M0 48q20-14 39-2t33-9v35H0" fill="#6c9279"/><path d="M0 61q24-10 44-2t28-4v17H0" fill="#b5bca2"/></svg>'}
-function refreshSelfAvatars(){$$('.wx-self-avatar,.message.self .avatar').forEach(el=>el.innerHTML=selfAvatarMarkup())}
+function refreshSelfAvatars(){
+ const wechatAvatar=!$('.wechat').classList.contains('dingtalk')&&data.avatar?avatar():selfAvatarMarkup();
+ $$('.wx-self-avatar').forEach(el=>el.innerHTML=wechatAvatar);
+ $$('.message.self .avatar').forEach(el=>el.innerHTML=selfAvatarMarkup());
+}
 function applyWechatTheme(){const theme=data.wechatTheme==='dark'?'dark':'light';$('.wechat').setAttribute('data-theme',theme);$('#modal').setAttribute('data-wx-theme',theme);$$('[data-wx-theme-choice]').forEach(el=>el.setAttribute('aria-pressed',String(el.dataset.wxThemeChoice===theme)))}
 function setWechatTheme(theme){if(!['light','dark'].includes(theme))return;data.wechatTheme=theme;persist();applyWechatTheme()}
 function wxThemeChoices(){return '<div class="wx-theme-choices">'+[['light','浅色'],['dark','深色']].map(([key,label])=>`<button type="button" data-wx-theme-choice="${key}" aria-pressed="${(data.wechatTheme||'light')===key}" onclick="setWechatTheme('${key}')"><span class="wx-theme-sample ${key}"></span>${label}</button>`).join('')+'</div>'}
@@ -52,5 +56,6 @@ startChat=function(){wxBaseStartChat();refreshSelfAvatars();applyWechatTheme()};
 const wxBaseMessage=message;
 message=function(text,self=false){wxBaseMessage(text,self);if(self)refreshSelfAvatars()};
 $('#modal').addEventListener('close',()=>$('#modal').classList.remove('wx-dialog'));
+const wxSyncContact=syncContact;
+syncContact=function(){wxSyncContact();refreshSelfAvatars()};
 restyleWechat();
-
